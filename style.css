@@ -42,6 +42,13 @@ body {
     width: 50%;
 }
 
+@media (max-width: 800px) {
+    .profile-card {
+        width: 80%;
+        }
+        
+    }
+
 .profile-img {
     width: 100px;
     height: 100px;
