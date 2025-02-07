@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="profile-card">
+        <div>
+            <img src="MyProfilePicture.jpg" alt="Profile Picture" class="profile-img" data-testid="profilePicture">
+            <h2 data-testid="fullName">Christianah Agbekeye</h2>
+            <h3 data-testid="jobTitle">Frontend Developer</h3>
+            <p data-testid="shortBio" class="short-bio">
+                I am passionate about creating accessible, and innovative frontend solutions that empowers the
+                underserved communities. So far, I am skilled in HTML, CSS, JavaScript, React, Tailwind CSS, and
+                Bootstrap, and I'm keen in continuos learning.
+                I also contribute to mentorship and advocacy programs. This includes offering hands-on guidance to
+                underserved
+                commnunities to help bridge the gender gap in STEM.
+            </p>
+
+            <h4 data-testid="currentLocation" class="current-location">Ibadan, Oyo state, Nigeria</h4>
+            <h4 data-testid="emailAddress" class="email">Christanahagbekeye@gmail.com</h4>
+            <p data-testid="currentTimeUTC" id="utc-time" class="utc-time"></p>
+
+            <div class="social-links">
+                <ul data-testid="socialLinks">
+                    <li><a href="https://github.com/ChrisChris501" target="_blank">GitHub</a></li>
+                    <li><a href="https://linkedin.com/in/christianah-agbekeye" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
